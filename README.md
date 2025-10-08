@@ -125,8 +125,6 @@ You can visualize:
 - Classification Report  
 - Accuracy and Loss Curves during training  
 
-(Optional: Add your plots here once available 📊)
-
 ---
 
 ## 🏁 Future Improvements  
