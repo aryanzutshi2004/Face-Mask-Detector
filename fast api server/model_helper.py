@@ -36,7 +36,7 @@ class Model(nn.Module):
         return self.model(x)
 with torch.no_grad():  
     model = Model(num_classes).to(device)
-    model.load_state_dict(torch.load("./face_mask_model.pth", map_location=device))
+    model.load_state_dict(torch.load("../artifacts/model_2.pth", map_location=device))
 
 def give_prediction(image):
     with torch.no_grad():
